@@ -12,3 +12,18 @@
     overflow: auto;
     overflow-x: hidden;
 }
+
+.container{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    margin: 5px;
+}
+.inner{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(98, 0, 255);
+    /* transform: scale(0.25, .50);  x  side y side */
+    /* transform: rotate(-25deg); */
+    transform: scale(0.6) rotate(45deg) translate(20px) ;
+}
