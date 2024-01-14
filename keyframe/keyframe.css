@@ -30,3 +30,112 @@
     color: white;
     animation: one 2s linear infinite;
 }
+
+
+.textss{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    animation: load 2s linear infinite;
+}
+
+@keyframes sone{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+.s{
+    animation: sone 1s infinite ;
+}
+
+
+@keyframes oone{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+.o{
+    animation: oone 1s infinite .5s;
+}
+
+
+@keyframes jone{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+.j{
+    animation: jone 1s infinite ;
+}
+
+@keyframes ione{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+.i{
+    animation: jone 1s infinite .5s;
+}
+
+@keyframes bone{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+
+}
+.b{
+    animation: jone 1s infinite ;
+}
