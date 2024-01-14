@@ -1,6 +1,6 @@
 .animation{
-border: 1px solid rebeccapurple;
-padding: 200px 0;
+padding: 200px 0 0 0;
+
 }
 .animation:hover .mans{
     transform: rotate(-20deg);

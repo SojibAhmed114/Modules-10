@@ -1,0 +1,41 @@
+:root{
+    --parymary-color: green;
+    --secondary-color: blue;
+    --font-size: 2em;
+}
+
+
+.eli{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.var-box{
+    background-color: rgba(127, 255, 212, 0.233);
+    width: calc(100% - 300px);
+}
+h2{
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+p{
+    color: var(--parymary-color);
+}
+h3{
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+.gird-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: calc(100% - 70% - 15px) calc(100% - 30% - 15px);
+}
+
+.sidebar{
+    background-color: red;
+}
+.mainbar{
+    background-color: blue;
+}
