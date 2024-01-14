@@ -1,0 +1,14 @@
+.news{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-box{
+    width: 400px;
+    height: 300px;
+    border: 2px solid slateblue;
+    overflow: auto;
+    overflow-x: hidden;
+}
