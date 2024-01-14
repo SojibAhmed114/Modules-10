@@ -27,3 +27,21 @@
     /* transform: rotate(-25deg); */
     transform: scale(0.6) rotate(45deg) translate(20px) ;
 }
+
+.transi , .tran{
+    width: 20vw;
+    height: 10vh;
+    background-color: rebeccapurple;
+    margin-bottom: 5px;
+    /* transition: width 1s linear, height 2s ease-in; */
+    transition: transform 1s linear ;
+}
+.transi:hover{
+    /* width: 50vw;
+    height: 20vh; */
+    border-radius: 5px;
+    transform:  translate(200px);
+}
+.tran:hover{
+    transform: scale(1.5) rotate(90deg) translate(50px);
+}
