@@ -1,0 +1,32 @@
+@keyframes one{
+    0%{
+        background-color: red;
+        width: 32vw;
+    }
+    25%{
+        background-color: blue;
+        width: 27vw;
+    }
+    75%{
+        background-color: green;
+        width: 30vw;
+    }
+    100%{
+        background-color: yellow;
+        width: 32vw;
+    }
+
+}
+
+.animation-one{
+    width: 20vw;
+    height: 20vh;
+    margin: 10px auto;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: one 2s linear infinite;
+}
