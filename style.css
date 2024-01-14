@@ -45,3 +45,32 @@
 .tran:hover{
     transform: scale(1.5) rotate(90deg) translate(50px);
 }
+
+.btn{
+    background-color: rgb(211, 211, 211);
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 0, 119);
+    font-weight: 700;
+    color: rgb(255, 0, 119);
+   margin: 50px;
+   transition: all .3s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: rgb(255, 0, 119);
+    color: white;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    animation: sojib 1s ;
+}
+
+@keyframes sojib{
+    form{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translate(0);
+    }
+}

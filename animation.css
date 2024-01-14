@@ -1,0 +1,21 @@
+.animation{
+border: 1px solid rebeccapurple;
+padding: 200px 0;
+}
+.animation:hover .mans{
+    transform: rotate(-20deg);
+    transform-origin: top left;
+}
+.mans{
+    transition: transform .3s ease ;
+}
+.balls{
+    width: 90px;
+    position: relative;
+    top: -250px;
+    left: -140px;
+    transition: transform .5s ease .2s  ;
+}
+.animation:hover .balls{
+    transform: translate(200px, -500px);
+}
